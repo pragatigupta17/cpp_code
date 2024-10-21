@@ -3,7 +3,7 @@ using namespace std;
 int main()
 {
 char c;
-cout<<"enter any char<<"\n";
+cout<<"enter any char"<<"\n";
 cin>>c;
 switch(c)
 {
