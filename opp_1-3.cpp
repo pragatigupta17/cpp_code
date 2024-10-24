@@ -2,15 +2,15 @@
 using namespace std;
 int main()
 {
-for(char r=65;r<=67;r++)
+for(int i=1;i<=3;i++)
 {
-for(char c=67;c>r;c--)
+for(int s=3;s>=i;s--)
 {
 cout<<" ";
 }
-for(char s=r;s>=65;s--)
+for(int j=i;j>=1;j--)
 {
-cout<<char(s);
+cout<<j;
 }
 cout<<"\n";
 }

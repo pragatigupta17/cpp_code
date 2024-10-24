@@ -2,9 +2,9 @@
 using namespace std;
 int main()
 {
-for(char r=65;r<=67;r++)
+for(char r=65;r<=70;r++)
 {
-for(char c=67;c>r;c--)
+for(char c=70;c>r;c--)
 {
 cout<<" ";
 }
