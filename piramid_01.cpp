@@ -2,17 +2,19 @@
 using namespace std;
 int main()
 {
-
-for(int i=1; i>=0; ++i)
+int a=1,k=0,d;
+for(int i=1; i<=5; i++)
 {
-for(int j=0;j<i;++j)
+for(int j=5;j>i;j--)
 {
     cout<<" ";
 }
-for(int s=i;s<=(2*i-1);++s)
+for(int s=1;s<=i;s++)
 {
-
-    cout<<(s%2);
+    d=a;
+    a=k;
+    k=d;
+    cout<<d<<" ";
 }
 cout<<"\n";
 }
